@@ -4,7 +4,7 @@ def multtwo(a,b):
     return a * b
 
 print ("Hello World")
-i = input("type integer: ")
+i = input("Enter an integer between 0-100: ")
 i_int = int(i)
 print("the number input was = ", i_int)
 # add line to multiply and print input number
