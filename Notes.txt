@@ -1,0 +1,1 @@
+201911072045; if git branch is 'develop' the windows10 file explorer will show what's in develop and if git branch is 'master' it will show what is in master
