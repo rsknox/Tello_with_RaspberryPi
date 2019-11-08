@@ -1,0 +1,5 @@
+command
+battery?
+takeoff
+up 10
+land

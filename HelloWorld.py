@@ -16,5 +16,15 @@ k2 = addtwo(k,j)
 mult2 = multtwo(k,j)
 print ("k2 = ", k2, "  m2 = ", mult2)
 print ("input value: ", i, "   four times the input value: ", k)
+# read commandFile and print commands
+file_name = 'commandFile.txt'
+f = open(file_name, "r")
+commands = f.readlines()
+print ("Start read of command file")
+for command in commands:
+    if command != '' and command != '\n':
+        command = command.rstrip()
+        print ("Next command: ", command)
+
 # add another print line
 print ("end of input phase")
