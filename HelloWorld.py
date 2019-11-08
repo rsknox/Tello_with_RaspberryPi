@@ -8,3 +8,5 @@ print ("twice the input = ", j)
 # another calc and print statement
 k = j + j
 print ("input value: ", i, "   four times the input value: ", k)
+# add another print line
+print ("end of input phase")
